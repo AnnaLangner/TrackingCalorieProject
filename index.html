@@ -15,7 +15,7 @@
         <div class="container">
           <a href="#" class="brand-logo center">Tracking calories app</a>
           <ul class="right">
-            <li><a class="clear-bnt btn blue lighten-3" href="#">Clear all</a></li>
+            <li><a class="clear-btn btn blue lighten-3" href="#">Clear all</a></li>
           </ul>
         </div>
       </div>
@@ -33,11 +33,11 @@
               </div>
               <div class="input-field col s6">
                 <label for="item-colories">Calories</label>
-                <input type="text" id="item_calories" placeholder="Add calories">                
+                <input type="number" id="item-calories" placeholder="Add calories">                
               </div>
               <button class="add-btn btn blue darken-3"><i class="fa fa-plus"></i>  Add meal</button>
-              <!-- <button class="update-btn btn orange"><i class="fa fa-pencil-square-o"></i>  Update meal</button>
-              <button class="delete-btn btn red"><i class="fa fa-remove"></i>  Delete meal</button> -->
+              <button class="update-btn btn orange"><i class="fa fa-pencil-square-o"></i>  Update meal</button>
+              <button class="delete-btn btn red"><i class="fa fa-remove"></i>  Delete meal</button>
               <button class="back-btn btn gray pull-right"><i class="fa fa-chevron-circle-left"></i>  back</button>
             </div>
           </form>
@@ -46,30 +46,10 @@
       <h3 class="center-align">Total calories: <span class="total-calories">0</span></h3>
 
       <ul id="item-list" class="collection">
-        <li class="collection-item" id="item-0">
-          <strong>Steak Dinner:</strong> <em>1200 calories</em>
-          <a href="#" class="secondary-content">
-            <i class="fa fa-pencil"></i>
-          </a>
-        </li>
-        <li class="collection-item" id="item-1">
-          <strong>Cookie:</strong> <em>400 calories</em>
-          <a href="#" class="secondary-content">
-            <i class="fa fa-pencil"></i>
-          </a>
-        </li>
-        <li class="collection-item" id="item-2">
-          <strong>Eggs:</strong> <em>300 calories</em>
-          <a href="#" class="secondary-content">
-            <i class="fa fa-pencil"></i>
-          </a>
-        </li>
       </ul>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="app.js"></script>
   </body>
